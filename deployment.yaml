@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: workingwithacr
+  name: gharasim01
 spec:
   selector:
     matchLabels:
-      app: workingwithacr
+      app: gharasim01-pod
   template:
     metadata:
       labels:
-        app: workingwithacr
+        app: gharasim01-pod
     spec:
       containers:
-      - name: workingwithacr
-        image: bcglabacr01.azurecr.io/workingwithacr:v1
+      - name: gharasim01-container
+        image: bcglabacr01.azurecr.io/workingwithacr:v2
         resources:
           limits:
             memory: "128Mi"
