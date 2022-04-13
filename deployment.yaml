@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: workingwithacr
+spec:
+  selector:
+    matchLabels:
+      app: workingwithacr
+  template:
+    metadata:
+      labels:
+        app: workingwithacr
+    spec:
+      containers:
+      - name: workingwithacr
+        image: bcglabacr01.azurecr.io/workingwithacr:v1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80

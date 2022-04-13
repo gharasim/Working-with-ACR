@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Trainings\\VMware\\ACR and Actions\\Working-with-ACR\\Working-with-ACR.csproj": {}
+    "C:\\Git\\Working-with-ACR\\Working-with-ACR.csproj": {}
   },
   "projects": {
-    "C:\\Trainings\\VMware\\ACR and Actions\\Working-with-ACR\\Working-with-ACR.csproj": {
+    "C:\\Git\\Working-with-ACR\\Working-with-ACR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Trainings\\VMware\\ACR and Actions\\Working-with-ACR\\Working-with-ACR.csproj",
+        "projectUniqueName": "C:\\Git\\Working-with-ACR\\Working-with-ACR.csproj",
         "projectName": "Working-with-ACR",
-        "projectPath": "C:\\Trainings\\VMware\\ACR and Actions\\Working-with-ACR\\Working-with-ACR.csproj",
-        "packagesPath": "C:\\Users\\adminuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Trainings\\VMware\\ACR and Actions\\Working-with-ACR\\obj\\",
+        "projectPath": "C:\\Git\\Working-with-ACR\\Working-with-ACR.csproj",
+        "packagesPath": "C:\\Users\\gharasim\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\Working-with-ACR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adminuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\gharasim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
