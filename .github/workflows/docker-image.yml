@@ -50,3 +50,15 @@ jobs:
     - name: Service Deployment
       run: kubectl apply -f service.yaml
 
+
+    - name: Helm tool installer
+      uses: Azure/setup-helm@v1
+      with:
+        # Version of helm
+        version: 3.8.1
+
+    - name: Login to ACR using HELM
+      run: |
+        echo $ | helm registry login bcglabacr01.azurecr.io --username bcglabacr01 --password vQign8/X5HO3XhfXFWFW05CtHqpYV+dM
+    - name: Package the helm chart
+      run: helm package ./helm/gracjan-demo01-api
